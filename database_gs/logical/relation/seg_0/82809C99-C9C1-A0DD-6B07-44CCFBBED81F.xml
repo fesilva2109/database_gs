@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="aceita" directorySegmentName="seg_0" id="82809C99-C9C1-A0DD-6B07-44CCFBBED81F">
+<createdBy>user</createdBy>
+<createdTime>2024-05-29 17:01:35 UTC</createdTime>
+<ownerDesignName>database_gs</ownerDesignName>
+<engineerTo>
+<item key="9DADC104-E363-5B4B-E6BD-9D13C6A8C6BA" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>114163CD-F250-AD5B-07BA-9FCED8F89AF2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EAB9B3F4-E23D-1E34-7060-9633F68768E0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BE21489A-06A8-7EDC-8C99-6001782684CE" name="MaterialReciclavel">
+<createdBy>user</createdBy>
+<createdTime>2024-05-29 16:39:38 UTC</createdTime>
+<ownerDesignName>database_gs</ownerDesignName>
+<engineerTo>
+<item key="9DADC104-E363-5B4B-E6BD-9D13C6A8C6BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_material" id="DE10E86F-8882-03F1-D85C-C853FCC4C47F">
+<createdBy>user</createdBy>
+<createdTime>2024-05-29 16:39:53 UTC</createdTime>
+<ownerDesignName>database_gs</ownerDesignName>
+<engineerTo>
+<item key="9DADC104-E363-5B4B-E6BD-9D13C6A8C6BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="4546D579-617F-D1F6-531C-2385DF1C0637">
+<createdBy>user</createdBy>
+<createdTime>2024-05-29 16:40:11 UTC</createdTime>
+<ownerDesignName>database_gs</ownerDesignName>
+<engineerTo>
+<item key="9DADC104-E363-5B4B-E6BD-9D13C6A8C6BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E211E459-52A3-978C-45B9-3E10BB6C60E7" name="MaterialReciclavel PK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-29 16:40:10 UTC</createdTime>
+<ownerDesignName>database_gs</ownerDesignName>
+<engineerTo>
+<item key="9DADC104-E363-5B4B-E6BD-9D13C6A8C6BA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DE10E86F-8882-03F1-D85C-C853FCC4C47F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

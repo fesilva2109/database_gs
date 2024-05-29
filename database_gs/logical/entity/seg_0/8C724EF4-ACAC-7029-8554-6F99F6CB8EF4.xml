@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C724EF4-ACAC-7029-8554-6F99F6CB8EF4" name="Quiz">
+<createdBy>user</createdBy>
+<createdTime>2024-05-29 16:42:07 UTC</createdTime>
+<ownerDesignName>database_gs</ownerDesignName>
+<engineerTo>
+<item key="9DADC104-E363-5B4B-E6BD-9D13C6A8C6BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_quiz" id="C6D19825-1EC2-48E1-D812-6A64A05EA905">
+<createdBy>user</createdBy>
+<createdTime>2024-05-29 16:42:46 UTC</createdTime>
+<ownerDesignName>database_gs</ownerDesignName>
+<engineerTo>
+<item key="9DADC104-E363-5B4B-E6BD-9D13C6A8C6BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pergunta" id="EB6A3FE6-8922-E3F1-6B9D-6D1717D8F88B">
+<createdBy>user</createdBy>
+<createdTime>2024-05-29 16:43:10 UTC</createdTime>
+<ownerDesignName>database_gs</ownerDesignName>
+<engineerTo>
+<item key="9DADC104-E363-5B4B-E6BD-9D13C6A8C6BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="opcao1" id="F1FB6383-8548-D03E-A358-F7B07F92F4CA">
+<createdBy>user</createdBy>
+<createdTime>2024-05-29 16:43:22 UTC</createdTime>
+<ownerDesignName>database_gs</ownerDesignName>
+<engineerTo>
+<item key="9DADC104-E363-5B4B-E6BD-9D13C6A8C6BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="opcao2" id="8F7988A6-F7A8-06C3-797C-0DDB7E4C25D9">
+<createdBy>user</createdBy>
+<createdTime>2024-05-29 16:43:52 UTC</createdTime>
+<ownerDesignName>database_gs</ownerDesignName>
+<engineerTo>
+<item key="9DADC104-E363-5B4B-E6BD-9D13C6A8C6BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="opcao3" id="7348E2B9-A2D4-7548-7348-6B032AD847BA">
+<createdBy>user</createdBy>
+<createdTime>2024-05-29 16:43:56 UTC</createdTime>
+<ownerDesignName>database_gs</ownerDesignName>
+<engineerTo>
+<item key="9DADC104-E363-5B4B-E6BD-9D13C6A8C6BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="opcao4" id="832E40AB-9F7F-9E4F-B55F-CC5FC8D629F1">
+<createdBy>user</createdBy>
+<createdTime>2024-05-29 16:43:59 UTC</createdTime>
+<ownerDesignName>database_gs</ownerDesignName>
+<engineerTo>
+<item key="9DADC104-E363-5B4B-E6BD-9D13C6A8C6BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="515944A5-E6A0-16A6-292A-966C6362076B" name="Quiz PK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-29 16:43:09 UTC</createdTime>
+<ownerDesignName>database_gs</ownerDesignName>
+<engineerTo>
+<item key="9DADC104-E363-5B4B-E6BD-9D13C6A8C6BA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C6D19825-1EC2-48E1-D812-6A64A05EA905</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

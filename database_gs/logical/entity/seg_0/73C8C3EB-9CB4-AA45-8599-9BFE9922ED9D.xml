@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="73C8C3EB-9CB4-AA45-8599-9BFE9922ED9D" name="InfoOceano">
+<createdBy>user</createdBy>
+<createdTime>2024-05-29 16:48:13 UTC</createdTime>
+<ownerDesignName>database_gs</ownerDesignName>
+<engineerTo>
+<item key="9DADC104-E363-5B4B-E6BD-9D13C6A8C6BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_info" id="5558B8A1-06D7-463B-F716-4DA5D745544E">
+<createdBy>user</createdBy>
+<createdTime>2024-05-29 16:48:24 UTC</createdTime>
+<ownerDesignName>database_gs</ownerDesignName>
+<engineerTo>
+<item key="9DADC104-E363-5B4B-E6BD-9D13C6A8C6BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titulo" id="41FB0AE6-7A3E-70ED-0A5C-086151A4AC45">
+<createdBy>user</createdBy>
+<createdTime>2024-05-29 16:48:48 UTC</createdTime>
+<ownerDesignName>database_gs</ownerDesignName>
+<engineerTo>
+<item key="9DADC104-E363-5B4B-E6BD-9D13C6A8C6BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="11EDA78B-BDF4-ED47-42F8-6B1536C5C93A">
+<createdBy>user</createdBy>
+<createdTime>2024-05-29 16:48:56 UTC</createdTime>
+<ownerDesignName>database_gs</ownerDesignName>
+<engineerTo>
+<item key="9DADC104-E363-5B4B-E6BD-9D13C6A8C6BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A081C890-8B21-F46D-329A-AA9CBC64CC5C" name="InfoOceano PK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-29 16:49:25 UTC</createdTime>
+<ownerDesignName>database_gs</ownerDesignName>
+<engineerTo>
+<item key="9DADC104-E363-5B4B-E6BD-9D13C6A8C6BA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5558B8A1-06D7-463B-F716-4DA5D745544E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

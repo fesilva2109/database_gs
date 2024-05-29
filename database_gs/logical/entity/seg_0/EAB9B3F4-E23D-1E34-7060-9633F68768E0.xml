@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EAB9B3F4-E23D-1E34-7060-9633F68768E0" name="Coleta">
+<createdBy>user</createdBy>
+<createdTime>2024-05-29 16:40:27 UTC</createdTime>
+<ownerDesignName>database_gs</ownerDesignName>
+<engineerTo>
+<item key="9DADC104-E363-5B4B-E6BD-9D13C6A8C6BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_coleta" id="5B3F178F-7781-3D19-BEA7-365CA89F2FFF">
+<createdBy>user</createdBy>
+<createdTime>2024-05-29 16:40:33 UTC</createdTime>
+<ownerDesignName>database_gs</ownerDesignName>
+<engineerTo>
+<item key="9DADC104-E363-5B4B-E6BD-9D13C6A8C6BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidade" id="CCE4913E-3981-3DA1-0A9D-01F9FF71316D">
+<createdBy>user</createdBy>
+<createdTime>2024-05-29 16:41:16 UTC</createdTime>
+<ownerDesignName>database_gs</ownerDesignName>
+<engineerTo>
+<item key="9DADC104-E363-5B4B-E6BD-9D13C6A8C6BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3488D484-2F83-CFE3-5AFD-6B317DBB17C3" name="Coleta PK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-29 16:41:15 UTC</createdTime>
+<ownerDesignName>database_gs</ownerDesignName>
+<engineerTo>
+<item key="9DADC104-E363-5B4B-E6BD-9D13C6A8C6BA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5B3F178F-7781-3D19-BEA7-365CA89F2FFF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
